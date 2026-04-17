@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0e670f4889f917a0",
+        "id": "c653293d3fd6d4f2",
         "type": "tabs",
         "children": [
           {
-            "id": "ec4e28f62fb5569b",
+            "id": "663dca2fe354df8c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "schema.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "title": "schema"
             }
           }
         ]
@@ -176,9 +180,17 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "ec4e28f62fb5569b",
+  "active": "663dca2fe354df8c",
   "lastOpenFiles": [
+    "wiki/lint/2026-04-17--lint.md",
     "README.md",
+    "schema.md",
+    "index.md",
+    "wiki/entities/Python.md",
+    "wiki/concepts/Ecosistema_Python_per_IA.md",
+    "wiki/sources/SRC-20260417-python-algoritmi-ia-humai.md",
+    "Clippings/Python un’ottima scelta per gli algoritmi di intelligenza artificiale – Intelligenza artificiale e umana. Il giusto mix tra uomo e macchina.md",
+    "raw/sources/2026-04-17--python-algoritmi-ia-humai.md",
     "wiki/entities/JADE_Framework.md",
     "wiki/concepts/Sistemi_Multi_Agente.md",
     "wiki/sources/SRC-20260417-multi-agent-system-wikipedia.md",
@@ -196,14 +208,6 @@
     "Clippings/Cervello (anatomia umana).md",
     "wiki/entities/Wikipedia.md",
     "wiki/concepts/Governance_Regolazione_IA.md",
-    "wiki/concepts/IA_Definizioni_Classificazioni.md",
-    "wiki/sources/SRC-20260417-intelligenza-artificiale-wikipedia.md",
-    "raw/sources/2026-04-17--intelligenza-artificiale-wikipedia.md",
-    "Clippings/Intelligenza artificiale.md",
-    "wiki/entities/Ollama.md",
-    "wiki/concepts/Bootstrap_OpenClaw_via_Ollama.md",
-    "wiki/sources/SRC-20260417-openclaw-ollama.md",
-    "raw/sources/2026-04-17--openclaw-via-ollama.md",
     "Clippings",
     "templates",
     "wiki/lint",

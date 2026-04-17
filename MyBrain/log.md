@@ -68,3 +68,18 @@ Formato entry: `## [YYYY-MM-DD] operazione | titolo`
 - File creati: `README.md`.
 - File aggiornati: `Benvenuto.md`, `index.md`.
 - Crediti aggiunti: gist di Karpathy e video guida richiesti.
+
+## [2026-04-17] ingest | SRC-20260417-python-algoritmi-ia-humai
+- Fonte input: `Clippings/Python un’ottima scelta per gli algoritmi di intelligenza artificiale – Intelligenza artificiale e umana. Il giusto mix tra uomo e macchina.md`.
+- Fonte raw canonica: `raw/sources/2026-04-17--python-algoritmi-ia-humai.md`.
+- Pagine create: `wiki/sources/SRC-20260417-python-algoritmi-ia-humai.md`, `wiki/concepts/Ecosistema_Python_per_IA.md`, `wiki/entities/Python.md`.
+- Pagine aggiornate: `wiki/concepts/IA_Definizioni_Classificazioni.md`, `index.md`.
+- Contraddizioni rilevate: nessuna contraddizione interna esplicita; fonte divulgativa con base quantitativa comparativa limitata.
+- Note operative: ingest completato con focus su ecosistema Python per IA, librerie principali e implicazioni operative di prototipazione.
+
+## [2026-04-17] lint | Audit coerenza wiki
+- Scope: controllo su pagine `wiki/sources`, `wiki/concepts`, `wiki/entities` e file core (`schema.md`, `index.md`, `README.md`).
+- Report creato: `wiki/lint/2026-04-17--lint.md`.
+- Esito: 0 contraddizioni critiche, 0 pagine orfane, 1 area a rischio obsolescenza (benchmark LLM), 1 gap concettuale (LLM Wiki senza pagina dedicata).
+- Note tecniche: rilevato 1 placeholder link in `schema.md` (non bloccante, da normalizzare per evitare falsi positivi di lint).
+- File aggiornati: `index.md`.
