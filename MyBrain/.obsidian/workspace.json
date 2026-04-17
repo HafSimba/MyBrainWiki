@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "29f754d5980ac0a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e670f4889f917a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec4e28f62fb5569b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nuova scheda"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3ec27ede0ed34664",
+    "type": "split",
+    "children": [
+      {
+        "id": "92aa5cd597e666ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae66224a80237bb3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora risorse"
+            }
+          },
+          {
+            "id": "2bb4942484a0e51b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
+            }
+          },
+          {
+            "id": "c9ebe245d1cbc89a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "41b684a8561127dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d6333bdbec49669",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b12491f80ebbba4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti"
+            }
+          },
+          {
+            "id": "8b46c9a46803196a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita"
+            }
+          },
+          {
+            "id": "95c0571ec182e872",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
+            }
+          },
+          {
+            "id": "809a4310e762984b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tutte le proprietà"
+            }
+          },
+          {
+            "id": "09e3f4694cc1dac1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false
+    }
+  },
+  "active": "ec4e28f62fb5569b",
+  "lastOpenFiles": [
+    "README.md",
+    "wiki/entities/JADE_Framework.md",
+    "wiki/concepts/Sistemi_Multi_Agente.md",
+    "wiki/sources/SRC-20260417-multi-agent-system-wikipedia.md",
+    "raw/sources/2026-04-17--multi-agent-system-wikipedia.md",
+    "Clippings/Multi-agent system.md",
+    "wiki/entities/Chatbot_Arena.md",
+    "wiki/concepts/Selezione_LLM_Per_Caso_d_Uso.md",
+    "wiki/sources/SRC-20260417-confronto-llm-benchmark.md",
+    "raw/sources/2026-04-17--confronto-migliori-llm-benchmark.md",
+    "Clippings/Quale AI usare per fare cosa il confronto tra i migliori LLM del momento.md",
+    "wiki/entities/Cervello_Umano.md",
+    "wiki/concepts/Neuroanatomia_Funzionale.md",
+    "wiki/sources/SRC-20260417-cervello-anatomia-wikipedia.md",
+    "raw/sources/2026-04-17--cervello-anatomia-umana-wikipedia.md",
+    "Clippings/Cervello (anatomia umana).md",
+    "wiki/entities/Wikipedia.md",
+    "wiki/concepts/Governance_Regolazione_IA.md",
+    "wiki/concepts/IA_Definizioni_Classificazioni.md",
+    "wiki/sources/SRC-20260417-intelligenza-artificiale-wikipedia.md",
+    "raw/sources/2026-04-17--intelligenza-artificiale-wikipedia.md",
+    "Clippings/Intelligenza artificiale.md",
+    "wiki/entities/Ollama.md",
+    "wiki/concepts/Bootstrap_OpenClaw_via_Ollama.md",
+    "wiki/sources/SRC-20260417-openclaw-ollama.md",
+    "raw/sources/2026-04-17--openclaw-via-ollama.md",
+    "Clippings",
+    "templates",
+    "wiki/lint",
+    "wiki/queries",
+    "wiki/syntheses",
+    "wiki/sources",
+    "wiki/concepts",
+    "wiki/entities",
+    "wiki",
+    "raw/assets"
+  ]
+}
