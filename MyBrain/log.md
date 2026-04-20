@@ -83,3 +83,62 @@ Formato entry: `## [YYYY-MM-DD] operazione | titolo`
 - Esito: 0 contraddizioni critiche, 0 pagine orfane, 1 area a rischio obsolescenza (benchmark LLM), 1 gap concettuale (LLM Wiki senza pagina dedicata).
 - Note tecniche: rilevato 1 placeholder link in `schema.md` (non bloccante, da normalizzare per evitare falsi positivi di lint).
 - File aggiornati: `index.md`.
+
+## [2026-04-17] ingest | SRC-20260417-claude-code-ollama
+- Fonte input: `Clippings/Claude Code.md`.
+- Fonte raw canonica: `raw/sources/2026-04-17--claude-code.md`.
+- Pagine create: `wiki/sources/SRC-20260417-claude-code-ollama.md`, `wiki/concepts/Bootstrap_Claude_Code_via_Ollama.md`, `wiki/entities/Claude_Code.md`.
+- Pagine aggiornate: `wiki/entities/Ollama.md`, `index.md`.
+- Contraddizioni rilevate: nessuna contraddizione interna esplicita; gap su benchmark quantitativi e profili costo/latenza dei modelli consigliati.
+- Note operative: ingest completato con focus su bootstrap `ollama launch claude`, modalita headless, `/loop` per task ricorrenti e integrazione API Anthropic-compatible.
+
+## [2026-04-17] ingest | SRC-20260417-claude-code-memory
+- Fonte input: `Clippings/How Claude remembers your project.md`.
+- Fonte raw canonica: `raw/sources/2026-04-17--how-claude-remembers-project.md`.
+- Pagine create: `wiki/sources/SRC-20260417-claude-code-memory.md`, `wiki/concepts/Memoria_Persistente_Claude_Code.md`.
+- Pagine aggiornate: `wiki/entities/Claude_Code.md`, `index.md`.
+- Contraddizioni rilevate: nessuna contraddizione interna esplicita; presenti limiti su metriche quantitative dell'impatto memoria.
+- Note operative: ingest completato con focus su `CLAUDE.md`, auto memory, comando `/memory`, rules path-scoped e gestione conflitti istruzioni.
+
+## [2026-04-17] lint | Audit coerenza wiki (refresh)
+- Scope: controllo su pagine `wiki/sources`, `wiki/concepts`, `wiki/entities` e file core (`schema.md`, `index.md`, `README.md`).
+- Report aggiornato: `wiki/lint/2026-04-17--lint.md`.
+- Esito: 0 contraddizioni critiche, 0 pagine orfane, 2 aree a rischio obsolescenza (benchmark LLM + guida operativa Claude Code/Ollama), 1 gap concettuale (LLM Wiki senza pagina dedicata).
+- Note tecniche: rilevati 2 link non bloccanti da correggere (placeholder in `schema.md`, path README in `index.md`).
+- File aggiornati: `wiki/lint/2026-04-17--lint.md`.
+
+## [2026-04-17] schema-update | Correzione pattern citazioni
+- Azione: sostituito il pattern placeholder di citazione wiki in `schema.md` con forma testuale non linkabile per evitare falsi positivi lint.
+- File aggiornati: `schema.md`.
+- Note: aggiornamento conforme alla regola di evoluzione schema.
+
+## [2026-04-17] lint | Audit coerenza wiki (post-correzioni link)
+- Scope: verifica link e coerenza su file core e pagine wiki dopo le correzioni suggerite dal lint precedente.
+- Report aggiornato: `wiki/lint/2026-04-17--lint.md`.
+- Esito: 0 contraddizioni critiche, 0 pagine orfane, 2 aree a rischio obsolescenza, 1 gap concettuale (LLM Wiki senza pagina dedicata).
+- Note tecniche: link placeholder in `schema.md` risolto; link README in `index.md` corretto (`../README.md`); broken link residui: 0 wiki, 0 core.
+- File aggiornati: `index.md`, `wiki/lint/2026-04-17--lint.md`.
+
+## [2026-04-17] ingest | SRC-20260417-a-z-index-windows-cmd-commands
+- Fonte input: `Clippings/An A-Z Index of Windows CMD commands.md`.
+- Fonte raw canonica: `raw/sources/2026-04-17--a-z-index-windows-cmd-commands.md`.
+- Pagine create: `wiki/sources/SRC-20260417-a-z-index-windows-cmd-commands.md`, `wiki/concepts/Indice_Comandi_CMD_Windows.md`, `wiki/entities/CMD_Windows.md`.
+- Pagine aggiornate: `index.md`.
+- Contraddizioni rilevate: nessuna contraddizione interna esplicita; fonte di tipo reference con limiti su contesto operativo e hardening.
+- Note operative: ingest completato con distinzione comandi interni/esterni CMD e collegamenti a uso CLI su ambiente Windows.
+
+## [2026-04-17] ingest | SRC-20260417-a-z-index-linux-command-line
+- Fonte input: `Clippings/An A-Z Index of the Linux command line.md`.
+- Fonte raw canonica: `raw/sources/2026-04-17--a-z-index-linux-command-line.md`.
+- Pagine create: `wiki/sources/SRC-20260417-a-z-index-linux-command-line.md`, `wiki/concepts/Indice_Comandi_Bash_Linux.md`, `wiki/entities/Bash.md`.
+- Pagine aggiornate: `index.md`.
+- Contraddizioni rilevate: nessuna contraddizione interna esplicita; fonte di tipo reference con limiti su policy di sicurezza e contesto operativo locale.
+- Note operative: ingest completato con distinzione tra built-in bash e utility esterne, e collegamento cross-OS con la mappa comandi CMD Windows.
+
+## [2026-04-17] ingest | SRC-20260417-claude-mythos-preview-cybersecurity
+- Fonte input: `Clippings/Claude Mythos Preview  red.anthropic.com.md`.
+- Fonte raw canonica: `raw/sources/2026-04-17--claude-mythos-preview-red-anthropic.md`.
+- Pagine create: `wiki/sources/SRC-20260417-claude-mythos-preview-cybersecurity.md`, `wiki/concepts/Transizione_Cybersecurity_con_LLM.md`, `wiki/entities/Claude_Mythos_Preview.md`.
+- Pagine aggiornate: `index.md`.
+- Contraddizioni rilevate: nessuna contraddizione interna esplicita; presenti limiti di verificabilita immediata per dettagli non divulgati durante il periodo di responsible disclosure.
+- Note operative: analisi completata con focus su impatto operativo per team difensivi (patch latency, triage scalabile, automazione incident response).

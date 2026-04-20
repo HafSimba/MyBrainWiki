@@ -129,7 +129,7 @@ Usare sempre link relativi.
 
 Pattern consigliati:
 - Citazione fonte raw: `[SRC-...](raw/sources/...)`
-- Citazione pagina wiki: `[Titolo pagina](wiki/.../file.md)`
+- Citazione pagina wiki: `Titolo pagina -> wiki/<sezione>/<file>.md`
 
 Ogni sezione "Punti chiave" o "Claim" deve avere almeno una citazione.
 
