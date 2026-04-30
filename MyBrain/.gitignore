@@ -1,0 +1,5 @@
+# Ignore Visual Studio Code settings and Obsidian vault files
+/.vscode
+.obsidian
+# ignore json file
+*.json

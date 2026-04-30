@@ -142,3 +142,49 @@ Formato entry: `## [YYYY-MM-DD] operazione | titolo`
 - Pagine aggiornate: `index.md`.
 - Contraddizioni rilevate: nessuna contraddizione interna esplicita; presenti limiti di verificabilita immediata per dettagli non divulgati durante il periodo di responsible disclosure.
 - Note operative: analisi completata con focus su impatto operativo per team difensivi (patch latency, triage scalabile, automazione incident response).
+
+## [2026-04-24] ingest | SRC-20260424-gpt-5-5
+- Fonte input: `Clippings/Introducing GPT-5.5.md`.
+- Fonte raw canonica: `raw/sources/2026-04-24--gpt-5-5.md`.
+- Pagine create: `wiki/sources/SRC-20260424-gpt-5-5.md`, `wiki/entities/GPT_5_5.md`, `wiki/entities/OpenAI.md`.
+- Pagine aggiornate: `wiki/concepts/Selezione_LLM_Per_Caso_d_Uso.md`, `index.md`.
+- Contraddizioni rilevate: nessuna contraddizione interna esplicita; presenti caveat su SWE-Bench Pro (memorization) e benchmark internal non indipendenti.
+- Note operative: ingest completato con focus su benchmark GPT-5.5 vs competition (Claude Opus 4.7, Gemini 3.1 Pro), pricing API imminente, e cyber safeguards "High" sotto Preparedness Framework.
+
+## [2026-04-29] ingest | SRC-20260429-dimensionamento-hardware-ai
+- Fonte input: `raw/sources/Dimensionamento Hardware AI_ Calcoli e Specifiche.pdf`.
+- Fonte raw canonica: `raw/sources/Dimensionamento Hardware AI_ Calcoli e Specifiche.pdf`.
+- Pagine create: `wiki/sources/SRC-20260429-dimensionamento-hardware-ai.md`, `wiki/concepts/Dimensionamento_Hardware_AI.md`.
+- Pagine aggiornate: `index.md`.
+- Contraddizioni rilevate: nessuna contraddizione interna esplicita verificabile; presente gap tecnico su estrazione testo/tabelle dal PDF.
+- Note operative: ingest iniziale completato in modalita metadata-first (stato `draft`), con tracciamento fonte e concetto; necessaria estrazione/OCR successiva per consolidare claim numerici e raccomandazioni hardware.
+
+## [2026-04-29] ingest | SRC-20260429-dimensionamento-hardware-ai (refresh da .md)
+- Fonte input: `raw/sources/analisi Matematica e archietturale.md`.
+- Fonte raw canonica: `raw/sources/analisi Matematica e archietturale.md`.
+- Pagine create: nessuna.
+- Pagine aggiornate: `wiki/sources/SRC-20260429-dimensionamento-hardware-ai.md`, `wiki/concepts/Dimensionamento_Hardware_AI.md`, `index.md`.
+- Contraddizioni rilevate: nessuna contraddizione interna esplicita; presenti assunzioni da validare su workload reali (concorrenza, contesto, utilizzo medio) e fonti non primarie in bibliografia.
+- Note operative: pagina source promossa a `status: active`; consolidati numeri di sizing (70B vs 8B), requisiti termici (CFM/BTU) e stime OPEX energetiche per scenario Lombardia 2026.
+
+## [2026-04-29] ingest-update | Entita hardware e modelli Llama
+- Fonte di riferimento: `raw/sources/analisi Matematica e archietturale.md`.
+- Pagine create: `wiki/entities/NVIDIA_H100.md`, `wiki/entities/NVIDIA_A100.md`, `wiki/entities/Llama_3_1_70B.md`, `wiki/entities/Llama_3_1_8B.md`.
+- Pagine aggiornate: `wiki/sources/SRC-20260429-dimensionamento-hardware-ai.md`, `wiki/concepts/Dimensionamento_Hardware_AI.md`, `index.md`.
+- Contraddizioni rilevate: nessuna nuova contraddizione esplicita; resta il limite di generalizzazione delle stime su workload reali.
+- Note operative: formalizzati i nodi principali del dominio (hardware + modelli) per migliorare navigabilita e query semantiche cross-page.
+
+## [2026-04-29] ingest | SRC-20260429-hmas-on-prem
+- Fonte input: `raw/sources/analisi sistema ai azienda.md`.
+- Fonte raw canonica: `raw/sources/analisi sistema ai azienda.md`.
+- Pagine create: `wiki/sources/SRC-20260429-hmas-on-prem.md`, `wiki/concepts/Architettura_HMAS_On_Premise.md`, `wiki/entities/NVIDIA_RTX_5090.md`.
+- Pagine aggiornate: `wiki/concepts/Sistemi_Multi_Agente.md`, `wiki/concepts/Dimensionamento_Hardware_AI.md`, `index.md`.
+- Contraddizioni rilevate: nessuna contraddizione interna esplicita; presenti stime dipendenti da ipotesi operative (concorrenza costante, quality gate, profilo traffico).
+- Note operative: ingest completato con focus su architettura gerarchica supervisor-worker, fallback deterministico, adozione RAG e vincoli facility/termici per deployment on-prem.
+
+## [2026-04-29] maintenance | Normalizzazione unita + lint calcoli
+- File aggiornato: `raw/sources/analisi sistema ai azienda.md`.
+- Azione: allineate unita e variabili matematiche (`Ctoken`, `Tuser`, `Kuser`, `VRAMkv`, `VRAMtot`) per distinguere coerentemente componente KV dinamica e memoria totale.
+- Lint report creato: `wiki/lint/2026-04-29--lint.md`.
+- File aggiornati: `index.md`.
+- Esito lint: 0 contraddizioni critiche, 1 divergenza non bloccante di assunzioni (scenario datacenter FP16/BF16 vs scenario HEDT quantizzato), 0 pagine orfane.

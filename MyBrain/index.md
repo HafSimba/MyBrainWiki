@@ -1,8 +1,8 @@
 # Index
 
-Ultimo aggiornamento: 2026-04-17
-Fonti integrate: 13
-Pagine wiki totali: 41
+Ultimo aggiornamento: 2026-04-29
+Fonti integrate: 16
+Pagine wiki totali: 55
 
 ## Core
 - [README.md](../README.md) - Guida principale per usare il brain e i workflow operativi.
@@ -24,6 +24,9 @@ Pagine wiki totali: 41
 - [wiki/sources/SRC-20260417-a-z-index-windows-cmd-commands.md](wiki/sources/SRC-20260417-a-z-index-windows-cmd-commands.md) - Indice A-Z dei comandi Windows CMD con descrizioni sintetiche e link di approfondimento.
 - [wiki/sources/SRC-20260417-a-z-index-linux-command-line.md](wiki/sources/SRC-20260417-a-z-index-linux-command-line.md) - Indice A-Z della command line Linux (bash + utility) con descrizioni sintetiche e link di dettaglio.
 - [wiki/sources/SRC-20260417-claude-mythos-preview-cybersecurity.md](wiki/sources/SRC-20260417-claude-mythos-preview-cybersecurity.md) - Valutazione tecnica delle capacita cyber di Claude Mythos Preview e implicazioni difensive.
+- [wiki/sources/SRC-20260424-gpt-5-5.md](wiki/sources/SRC-20260424-gpt-5-5.md) - Presentazione GPT-5.5: benchmark all'avanguardia in agentic coding, latenza GPT-5.4, pricing API.
+- [wiki/sources/SRC-20260429-dimensionamento-hardware-ai.md](wiki/sources/SRC-20260429-dimensionamento-hardware-ai.md) - Analisi matematica completa su sizing hardware AI agentico (VRAM, termica, OPEX) per scenari 70B e 8B.
+- [wiki/sources/SRC-20260429-hmas-on-prem.md](wiki/sources/SRC-20260429-hmas-on-prem.md) - Studio di fattibilita HMAS on-prem per 20 utenti con supervisore 70B, worker 8B-14B, RAG e vincoli HEDT.
 
 ## Concepts
 - [wiki/concepts/Cattura_Frictionless.md](wiki/concepts/Cattura_Frictionless.md) - Regole operative per ridurre attrito nella fase di cattura.
@@ -41,6 +44,8 @@ Pagine wiki totali: 41
 - [wiki/concepts/Indice_Comandi_CMD_Windows.md](wiki/concepts/Indice_Comandi_CMD_Windows.md) - Mappa operativa A-Z dei comandi CMD per discovery rapida e uso consapevole.
 - [wiki/concepts/Indice_Comandi_Bash_Linux.md](wiki/concepts/Indice_Comandi_Bash_Linux.md) - Mappa operativa A-Z dei comandi bash/Linux per discovery rapida e scripting.
 - [wiki/concepts/Transizione_Cybersecurity_con_LLM.md](wiki/concepts/Transizione_Cybersecurity_con_LLM.md) - Quadro operativo della transizione cyber guidata da modelli frontier.
+- [wiki/concepts/Dimensionamento_Hardware_AI.md](wiki/concepts/Dimensionamento_Hardware_AI.md) - Metodo operativo di dimensionamento AI basato su KV cache, concorrenza, termica e costo energetico.
+- [wiki/concepts/Architettura_HMAS_On_Premise.md](wiki/concepts/Architettura_HMAS_On_Premise.md) - Pattern gerarchico supervisor-worker per AI on-prem con escalation deterministica, RAG e sandboxing.
 
 ## Entities
 - [wiki/entities/Inbox_Unica.md](wiki/entities/Inbox_Unica.md) - Entita operativa che centralizza l'ingresso delle informazioni.
@@ -55,6 +60,13 @@ Pagine wiki totali: 41
 - [wiki/entities/CMD_Windows.md](wiki/entities/CMD_Windows.md) - Interprete a riga di comando di Windows per amministrazione, diagnostica e automazione batch.
 - [wiki/entities/Bash.md](wiki/entities/Bash.md) - Shell GNU diffusa in Linux per comandi interattivi, pipeline e automazione script.
 - [wiki/entities/Claude_Mythos_Preview.md](wiki/entities/Claude_Mythos_Preview.md) - Modello Anthropic con capacita avanzate in vulnerability research ed exploit analysis.
+- [wiki/entities/GPT_5_5.md](wiki/entities/GPT_5_5.md) - Modello frontier OpenAI (2026-04): agentic coding 82.7% Terminal-Bench, token efficiency superiore.
+- [wiki/entities/OpenAI.md](wiki/entities/OpenAI.md) - Azienda leader in AI frontier con serie GPT, ChatGPT e Codex.
+- [wiki/entities/NVIDIA_H100.md](wiki/entities/NVIDIA_H100.md) - GPU datacenter Hopper di riferimento per inferenza LLM ad alte prestazioni.
+- [wiki/entities/NVIDIA_A100.md](wiki/entities/NVIDIA_A100.md) - GPU datacenter NVIDIA di generazione precedente, ancora diffusa in produzione enterprise.
+- [wiki/entities/Llama_3_1_70B.md](wiki/entities/Llama_3_1_70B.md) - Modello open-weights high-end con requisiti hardware elevati in scenari agentici concorrenti.
+- [wiki/entities/Llama_3_1_8B.md](wiki/entities/Llama_3_1_8B.md) - Variante compatta per mini-agenti con migliore sostenibilita infrastrutturale.
+- [wiki/entities/NVIDIA_RTX_5090.md](wiki/entities/NVIDIA_RTX_5090.md) - GPU di fascia alta usata come riferimento per cluster HEDT on-prem multi-GPU.
 
 ## Syntheses
 Nessuna sintesi ancora creata.
@@ -64,3 +76,5 @@ Nessuna query persistita ancora creata.
 
 ## Lint Reports
 - [wiki/lint/2026-04-17--lint.md](wiki/lint/2026-04-17--lint.md) - Audit di coerenza: contraddizioni, obsolescenza, orfani e gap concettuali.
+- [wiki/lint/2026-04-24--lint.md](wiki/lint/2026-04-24--lint.md) - Audit aggiornato: 40 pagine, 0 contraddizioni, 2 aree obsolescenza, 1 gap concettuale.
+- [wiki/lint/2026-04-29--lint.md](wiki/lint/2026-04-29--lint.md) - Verifica coerenza calcoli tra scenari HMAS/HEDT e datacenter, con normalizzazione unita e assunzioni.

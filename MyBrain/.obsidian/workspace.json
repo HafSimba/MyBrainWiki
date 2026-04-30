@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6aaeab0881039181",
+        "id": "a6ce97b85005e25a",
         "type": "tabs",
         "children": [
           {
-            "id": "5c09d01407ae58e1",
+            "id": "6984634ca7ba2c73",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista grafo"
+              "type": "pdf",
+              "state": {
+                "file": "raw/sources/Dimensionamento Hardware AI_ Calcoli e Specifiche.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Dimensionamento Hardware AI_ Calcoli e Specifiche"
             }
           }
         ]
@@ -74,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "41b684a8561127dd",
@@ -175,14 +176,23 @@
       "daily-notes:Apri nota del giorno": false,
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
-      "bases:Crea nuova Base": false,
-      "infranodus-graph-view:InfraNodus Graph View": false
+      "bases:Crea nuova Base": false
     }
   },
-  "active": "5c09d01407ae58e1",
+  "active": "6984634ca7ba2c73",
   "lastOpenFiles": [
-    "index.md",
+    "raw/sources/analisi sistema ai azienda.md",
+    "raw/sources/analisi Matematica e archietturale.md",
     "schema.md",
+    "log.md",
+    "index.md",
+    "Giuseppe Servidio.md",
+    "wiki/lint/2026-04-29--lint.md",
+    "wiki/entities/OpenAI.md",
+    "wiki/entities/GPT_5_5.md",
+    "wiki/sources/SRC-20260424-gpt-5-5.md",
+    "raw/sources/2026-04-24--gpt-5-5.md",
+    "Clippings/Introducing GPT-5.5.md",
     "wiki/entities/Claude_Mythos_Preview.md",
     "wiki/concepts/Transizione_Cybersecurity_con_LLM.md",
     "wiki/sources/SRC-20260417-claude-mythos-preview-cybersecurity.md",
@@ -197,16 +207,6 @@
     "wiki/entities/CMD_Windows.md",
     "wiki/concepts/Indice_Comandi_CMD_Windows.md",
     "wiki/sources/SRC-20260417-a-z-index-windows-cmd-commands.md",
-    "raw/sources/2026-04-17--a-z-index-windows-cmd-commands.md",
-    "Clippings/How Claude remembers your project.md",
-    "wiki/concepts/Memoria_Persistente_Claude_Code.md",
-    "wiki/sources/SRC-20260417-claude-code-memory.md",
-    "raw/sources/2026-04-17--how-claude-remembers-project.md",
-    "Clippings/Claude Code.md",
-    "wiki/entities/Claude_Code.md",
-    "wiki/concepts/Bootstrap_Claude_Code_via_Ollama.md",
-    "wiki/sources/SRC-20260417-claude-code-ollama.md",
-    "raw/sources/2026-04-17--claude-code.md",
     "Clippings",
     "templates",
     "wiki/lint",
