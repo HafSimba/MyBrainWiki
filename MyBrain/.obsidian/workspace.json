@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a6ce97b85005e25a",
+        "id": "db921525b6bdbfb9",
         "type": "tabs",
         "children": [
           {
             "id": "6984634ca7ba2c73",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "raw/sources/Dimensionamento Hardware AI_ Calcoli e Specifiche.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Dimensionamento Hardware AI_ Calcoli e Specifiche"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista grafo"
             }
           }
         ]
@@ -179,8 +177,14 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "6984634ca7ba2c73",
+  "active": "ae66224a80237bb3",
   "lastOpenFiles": [
+    "wiki/lint/2026-05-05--lint.md",
+    "Clippings/Advanced Theming and UI Customization in OpenClaw (2026).md",
+    "wiki/concepts/Personalizzazione_UI_OpenClaw.md",
+    "wiki/sources/SRC-20260505-openclaw-advanced-theming-ui.md",
+    "raw/sources/2026-05-05--openclaw-advanced-theming-ui.md",
+    "raw/sources/Dimensionamento Hardware AI_ Calcoli e Specifiche.pdf",
     "raw/sources/analisi sistema ai azienda.md",
     "raw/sources/analisi Matematica e archietturale.md",
     "schema.md",
@@ -202,11 +206,6 @@
     "wiki/entities/Bash.md",
     "wiki/concepts/Indice_Comandi_Bash_Linux.md",
     "wiki/sources/SRC-20260417-a-z-index-linux-command-line.md",
-    "raw/sources/2026-04-17--a-z-index-linux-command-line.md",
-    "Clippings/An A-Z Index of the Linux command line.md",
-    "wiki/entities/CMD_Windows.md",
-    "wiki/concepts/Indice_Comandi_CMD_Windows.md",
-    "wiki/sources/SRC-20260417-a-z-index-windows-cmd-commands.md",
     "Clippings",
     "templates",
     "wiki/lint",
@@ -215,7 +214,6 @@
     "wiki/sources",
     "wiki/concepts",
     "wiki/entities",
-    "wiki",
-    "raw/assets"
+    "wiki"
   ]
 }

@@ -188,3 +188,23 @@ Formato entry: `## [YYYY-MM-DD] operazione | titolo`
 - Lint report creato: `wiki/lint/2026-04-29--lint.md`.
 - File aggiornati: `index.md`.
 - Esito lint: 0 contraddizioni critiche, 1 divergenza non bloccante di assunzioni (scenario datacenter FP16/BF16 vs scenario HEDT quantizzato), 0 pagine orfane.
+
+## [2026-05-05] ingest | SRC-20260505-openclaw-advanced-theming-ui
+- Fonte input: `Clippings/Advanced Theming and UI Customization in OpenClaw (2026).md`.
+- Fonte raw canonica: `raw/sources/2026-05-05--openclaw-advanced-theming-ui.md`.
+- Pagine create: `wiki/sources/SRC-20260505-openclaw-advanced-theming-ui.md`, `wiki/concepts/Personalizzazione_UI_OpenClaw.md`.
+- Pagine aggiornate: `wiki/entities/OpenClaw.md`, `index.md`.
+- Contraddizioni rilevate: nessuna contraddizione interna esplicita; incertezza su motore template e path dei file tema specifici per versione.
+- Note operative: ingest completato con focus su CSS override, template, JS e best practice (versioning, temi figlio, test cross-browser).
+
+## [2026-05-05] lint | Audit coerenza wiki
+- Scope: verifica link, orfani, frontmatter, obsolescenza e gap concettuali.
+- Report creato: `wiki/lint/2026-05-05--lint.md`.
+- Esito: 0 contraddizioni critiche, 1 divergenza di assunzioni, 0 pagine orfane, 0 frontmatter mancanti.
+- Broken link: riferimento a `../concepts/LLM_Wiki.md` (file mancante) e path raw con `%20` in due source del 2026-04-29.
+- File aggiornati: `index.md`.
+
+## [2026-05-05] maintenance | Fix link raw con spazi
+- Azione: normalizzati i link raw con spazi nelle source del 2026-04-29 (rimosso `%20`).
+- File aggiornati: `wiki/sources/SRC-20260429-dimensionamento-hardware-ai.md`, `wiki/sources/SRC-20260429-hmas-on-prem.md`, `wiki/lint/2026-05-05--lint.md`.
+- Esito: rimane solo il link mancante a `LLM_Wiki.md` nei report lint.

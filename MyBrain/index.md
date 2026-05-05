@@ -1,8 +1,8 @@
 # Index
 
-Ultimo aggiornamento: 2026-04-29
-Fonti integrate: 16
-Pagine wiki totali: 55
+Ultimo aggiornamento: 2026-05-05
+Fonti integrate: 17
+Pagine wiki totali: 58
 
 ## Core
 - [README.md](../README.md) - Guida principale per usare il brain e i workflow operativi.
@@ -27,12 +27,14 @@ Pagine wiki totali: 55
 - [wiki/sources/SRC-20260424-gpt-5-5.md](wiki/sources/SRC-20260424-gpt-5-5.md) - Presentazione GPT-5.5: benchmark all'avanguardia in agentic coding, latenza GPT-5.4, pricing API.
 - [wiki/sources/SRC-20260429-dimensionamento-hardware-ai.md](wiki/sources/SRC-20260429-dimensionamento-hardware-ai.md) - Analisi matematica completa su sizing hardware AI agentico (VRAM, termica, OPEX) per scenari 70B e 8B.
 - [wiki/sources/SRC-20260429-hmas-on-prem.md](wiki/sources/SRC-20260429-hmas-on-prem.md) - Studio di fattibilita HMAS on-prem per 20 utenti con supervisore 70B, worker 8B-14B, RAG e vincoli HEDT.
+- [wiki/sources/SRC-20260505-openclaw-advanced-theming-ui.md](wiki/sources/SRC-20260505-openclaw-advanced-theming-ui.md) - Guida alla personalizzazione avanzata UI di OpenClaw (CSS, template, JS, temi dinamici).
 
 ## Concepts
 - [wiki/concepts/Cattura_Frictionless.md](wiki/concepts/Cattura_Frictionless.md) - Regole operative per ridurre attrito nella fase di cattura.
 - [wiki/concepts/Review_Settimanale.md](wiki/concepts/Review_Settimanale.md) - Rituale periodico per trasformare note in decisioni.
 - [wiki/concepts/Gateway_Multi_Canale.md](wiki/concepts/Gateway_Multi_Canale.md) - Pattern architetturale per routing agentico su canali multipli.
 - [wiki/concepts/Bootstrap_OpenClaw_via_Ollama.md](wiki/concepts/Bootstrap_OpenClaw_via_Ollama.md) - Procedura di bootstrap e configurazione automatizzata via `ollama launch`.
+- [wiki/concepts/Personalizzazione_UI_OpenClaw.md](wiki/concepts/Personalizzazione_UI_OpenClaw.md) - Regole operative per personalizzare la UI OpenClaw via CSS, template e JS.
 - [wiki/concepts/IA_Definizioni_Classificazioni.md](wiki/concepts/IA_Definizioni_Classificazioni.md) - Distinzioni operative tra categorie IA, approcci tecnici e tipi di apprendimento.
 - [wiki/concepts/Governance_Regolazione_IA.md](wiki/concepts/Governance_Regolazione_IA.md) - Quadro pratico su etica, rischio e regolazione (UE/G7/USA).
 - [wiki/concepts/Neuroanatomia_Funzionale.md](wiki/concepts/Neuroanatomia_Funzionale.md) - Legame tra strutture cerebrali e funzioni cognitive, motorie, sensoriali ed emotive.
@@ -78,3 +80,4 @@ Nessuna query persistita ancora creata.
 - [wiki/lint/2026-04-17--lint.md](wiki/lint/2026-04-17--lint.md) - Audit di coerenza: contraddizioni, obsolescenza, orfani e gap concettuali.
 - [wiki/lint/2026-04-24--lint.md](wiki/lint/2026-04-24--lint.md) - Audit aggiornato: 40 pagine, 0 contraddizioni, 2 aree obsolescenza, 1 gap concettuale.
 - [wiki/lint/2026-04-29--lint.md](wiki/lint/2026-04-29--lint.md) - Verifica coerenza calcoli tra scenari HMAS/HEDT e datacenter, con normalizzazione unita e assunzioni.
+- [wiki/lint/2026-05-05--lint.md](wiki/lint/2026-05-05--lint.md) - Audit link, orfani, obsolescenza e gap concettuali post ingest 2026-05-05.
